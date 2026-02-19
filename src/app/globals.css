@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bubble-bg: #0f0f12;
+  --bubble-surface: #18181c;
+  --bubble-border: #27272a;
+  --bubble-muted: #71717a;
+  --bubble-accent: #a78bfa;
+}
+
+body {
+  background: var(--bubble-bg);
+  color: #fafafa;
+}
+
+/* Canvas container fill */
+.bubble-canvas-container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
